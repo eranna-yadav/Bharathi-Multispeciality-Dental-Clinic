@@ -90,7 +90,7 @@ export function appendTranscript(id, entry) {
   // Merge partials of the same turn only while the turn is actually ongoing —
   // after an interruption the model restarts the sentence, and merging that
   // into the old entry produced duplicated text like "Hey, this is Maya at
-  // WestsideHey, this is Maya at Westside Dentist".
+  // Hey, this is Maya at Bharathi Multispeciality Dental Clinic".
   const fresh = last && Date.now() - new Date(last.at).getTime() < 4000;
   if (last && last.role === entry.role && fresh && entry.partial) {
     last.text = (last.text || "") + entry.text;

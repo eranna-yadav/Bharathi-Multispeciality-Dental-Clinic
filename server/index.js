@@ -28,7 +28,7 @@ app.use(cookieParser());
 app.get("/api/health", (_req, res) => {
   res.json({
     ok: true,
-    clinic: process.env.CLINIC_NAME || "Westside Dentist",
+    clinic: process.env.CLINIC_NAME || "Bharathi Multispeciality Dental Clinic",
     eventTypeId: Number(process.env.CAL_EVENT_TYPE_ID),
   });
 });
@@ -302,7 +302,7 @@ server.on("upgrade", (req, socket, head) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Westside Dentist running on http://127.0.0.1:${PORT}`);
+  console.log(`Bharathi Multispeciality Dental Clinic running on http://127.0.0.1:${PORT}`);
   console.log(`Admin        http://127.0.0.1:${PORT}/admin`);
   console.log(`Voice Maya   bottom-right booking orb on the public site`);
 });

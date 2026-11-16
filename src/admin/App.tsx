@@ -282,7 +282,7 @@ export default function App() {
           className="w-full max-w-sm rounded-2xl border border-line bg-panel p-6 shadow-2xl"
         >
           <p className="text-[11px] tracking-[0.2em] uppercase text-accent mb-2">
-            Westside Dentist
+            Bharathi Multispeciality Dental Clinic
           </p>
           <h1 className="text-2xl font-semibold mb-1">Front desk</h1>
           <p className="text-sm text-muted mb-6">
@@ -316,7 +316,7 @@ export default function App() {
     <div className="min-h-screen">
       <header className="h-14 border-b border-line flex items-center justify-between px-5">
         <div>
-          <p className="text-[11px] tracking-[0.18em] uppercase text-accent">Westside Dentist</p>
+          <p className="text-[11px] tracking-[0.18em] uppercase text-accent">Bharathi Multispeciality Dental Clinic</p>
           <p className="text-sm text-muted">Voice desk · signed in as {user}</p>
         </div>
         <Button variant="ghost" onClick={onLogout}>
